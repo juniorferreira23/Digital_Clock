@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-image: url(img/manha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    background-color: rgba(3, 128, 3, 0.342);
+    margin: 35vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    font-size: 5em;
+    font-weight: bold;
+    margin: 0 2%;
+    color: white;
+}
+
+
+@media screen and (max-width: 810px){
+    .container{
+        width: 80%;
+        height: 150px;
+    }
+
+    span{
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 658px){
+    .container{
+        height: 100px;
+        margin: 45vh auto;
+    }
+
+    span{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 496px){
+    .container{
+        width: 90%;
+    }
+
+    span{
+        font-size: 2.5em;
+    }
+}
+
